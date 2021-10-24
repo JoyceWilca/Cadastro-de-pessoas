@@ -1,0 +1,90 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>cadastro de usuário</title>
+		<meta charset="utf-8">
+
+	</head>
+	<body>
+		<h1>Cadastrar Usuário</h1>
+			<form name="formuser"
+			<label>Nome</label>
+			<input type="text" name="nome" placeholder="Digite seu nome completo." / required
+		<label>cpf</label>
+			<input type="text" onChange="validaCpf()" id="cpf" placeholder="digite seu cpf" / required tabindex="1"></input>
+			<label>rg</label>
+			<input type="text" name="rg" placeholder="Digite seu RG"
+		<label>Celular:</label> 
+			<input type="tel" id="campo_celular" placeholder="Telefone Celular"/ required
+		<label>Telefone:</label> 
+			<input type="tel" id="campo_celular" placeholder="Telefone"
+			<label>Sexo:</label> 
+		</select>
+		<select name="sexo" id="sexo">
+			<option selected disabled value="">
+				Selecione seu gênero     
+			</option>
+			<option value="">
+				masculino
+			</option>
+			<option value="">
+				Feminino
+			</option>
+				<option value="">
+			Outro
+			</option>                    
+		</fieldset>
+		<hr>
+		<fieldset class="grupoEnd">
+		</select>
+		<label>indereco:</label> 
+		<input type="text" name="endereco" id="endereco" placeholder="coloque seu endereço" / required
+		<label>numero:</label> 
+            <input type="number" name="numero" id="numero" placeholder="coloque seu número" / required
+		</fieldset><hr>
+		<fieldset class="grupoEnd1">
+			<label>Bairro:</label> 
+			<input type="text" name="bairro" id="bairro" placeholder="Coloque seu bairro">
+		</fieldset><hr>
+		<fieldset class="grupoLocalidade">
+			<label>Sidade</label>
+			<input type="text" name="cidade" id="cidade" placeholder="Escreva sua cidade">
+			<label>Estado</label>
+			<select name="estado" id="estado">
+                <option selected disabled value="">
+                    Selecione seu Estado
+                </option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</o</select>
+				<label>Sep</label>
+				<input name="cep" type="text" id="cep" value="" size="10" maxlength="9"		
+                <t type="submit" onclick="return validar()">
+			<input type="submit" onclick="return validar()">
+		</form>
+	</body>
+</html>
